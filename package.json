@@ -19,7 +19,7 @@
     "formik": "^2.2.9",
     "material-table": "1.69.3",
     "moment": "^2.29.4",
-    "react": "^18.1.0",
+    "react": "^17.0.2",
     "react-avatar": "^5.0.3",
     "react-bootstrap": "^2.3.0",
     "react-datepicker": "^4.25.0",
