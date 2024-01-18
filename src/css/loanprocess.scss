@@ -1,0 +1,54 @@
+.color {
+  // background-image: url("loanprocess.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 480px;
+  background-repeat: no-repeat;
+}
+.contact {
+  text-decoration: none;
+}
+.contact:hover {
+  text-decoration: dashed;
+}
+.overlay-effect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(61 77 106 / 83%);
+  // background-color: rgba(0, 86, 184, 0.75);
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.container {
+  position: relative;
+}
+.img {
+  //   width: 100%;
+  height: 480px;
+}
+
+.button {
+  background-color: #d2691e;
+  color: #fff;
+  font-family: sans-serif;
+}
+.link {
+  color: rgb(25, 25, 230);
+}
+.list {
+  margin-left: 5%;
+  font-family: sans-serif;
+}
+.image {
+  width: 90%;
+}

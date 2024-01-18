@@ -1,0 +1,387 @@
+.img {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 480px;
+}
+
+/* * {
+  font-family: "Exo 2", sans-serif;
+  font-size: large;
+  line-height: 1.5;
+} */
+/* .sidebarcontent.open {
+      width: 210px;
+      background-color: aliceblue;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      z-index: 2;
+    } */
+.back-btn-color {
+  background-color: white !important;
+  color: gray !important;
+  border-color: gray !important;
+}
+
+.back-btn-color:hover {
+  background-color: gray !important;
+  color: white !important;
+  transform: scale(1.02);
+}
+
+@media only Screen and (min-width: 768px) {
+  .button-Style {
+    padding: 7px 25px !important;
+  }
+}
+
+.save-button {
+  display: flex;
+  justify-content: flex-end;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.save-btn-color {
+  background-color: #dfab2d !important;
+  border-color: #dfab2d !important;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.save-btn-color:hover {
+  background-color: #dfab2d !important;
+  transform: scale(1.02);
+}
+
+.next-btn-color {
+  background-color: #32527b !important;
+  border-color: #32527b !important;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.next-btn-color:hover {
+  background-color: #204a7e !important;
+  transform: scale(1.02);
+}
+
+@media only Screen and (max-width: 362px) {
+  .next-btn-color {
+    margin-top: 8px !important;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0d6efd;
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: #fff;
+}
+
+.h3-color {
+  color: #37517e;
+}
+
+.headline {
+  color: #4e6b9d;
+}
+
+.mission {
+  /* Created with https://www.css-gradient.com */
+  background: #23ec55;
+  background: -webkit-radial-gradient(top right, #23ec55, #2d51c1);
+  background: -moz-radial-gradient(top right, #23ec55, #2d51c1);
+  background: radial-gradient(to bottom left, #23ec55, #2d51c1);
+}
+
+.card-border {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  background-color: #4e6b9d;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.content {
+  padding: 6% !important;
+}
+
+.mission-font {
+  font-size: 16px;
+}
+
+.contents {
+  padding: 6% 15% 27% 15% !important;
+}
+
+.card-borders {
+  border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
+  background-color: #4e6b9d;
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+  color: #fff;
+}
+
+.carousel-control-prev {
+  left: -56px !important;
+}
+
+.carousel-control-next {
+  right: -54px !important;
+}
+
+.quality-text {
+  font-size: 14px;
+  padding-bottom: 2% !important;
+}
+
+.dedictaion-text {
+  padding-bottom: 4% !important;
+  font-size: 14px;
+}
+
+.contentss {
+  padding: 6% 15% 18% 15% !important;
+}
+
+.integrity-size {
+  font-size: 16px;
+  padding-bottom: 7%;
+}
+
+.required:after {
+  content: " *";
+  color: red;
+}
+
+.bouncing-loader {
+  display: flex;
+  justify-content: center;
+}
+
+.bouncing-loader > div {
+  width: 18px;
+  height: 18px;
+  margin: 3px 9px;
+  border-radius: 50%;
+  background-color: #035e8e;
+  opacity: 1;
+  animation: bouncing-loader 0.6s infinite alternate;
+}
+
+@keyframes bouncing-loader {
+  to {
+    opacity: 0.1;
+    transform: translateY(-16px);
+  }
+}
+
+.bouncing-loader > div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.bouncing-loader > div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.border-shape {
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  border-bottom-left-radius: 1%;
+  border-bottom-right-radius: 1%;
+}
+
+.shadow-remove {
+  scrollbar-shadow-color: #23ec55;
+}
+
+.navbar-height {
+  height: 5px;
+}
+
+.mortgage-inp {
+  text-align: right;
+  width: 50%;
+  border: none;
+  background-color: lightgray;
+}
+
+.mortgage-inp:focus {
+  outline: none;
+}
+
+.mortgage-inp-sec {
+  text-align: right;
+  width: 50%;
+  border: none;
+  background-color: lightblue;
+}
+
+.mortgage-inp-sec:focus {
+  outline: none;
+}
+
+hr.dashboard-divider {
+  margin-bottom: 10px;
+  overflow: visible;
+  border: none;
+  border-top: 1px solid gray;
+  text-align: center;
+  color: black !important;
+  font-weight: 700;
+  font-family: none !important;
+}
+
+hr.dashboard-divider::after {
+  content: "Dashboard";
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  padding: 0 16px;
+  color: black !important;
+  font-size: 18px;
+  background: #fff;
+}
+
+hr.loanDetail-divider {
+  margin-bottom: 10px;
+  overflow: visible;
+  border: none;
+  border-top: 1px solid gray;
+  text-align: center;
+  color: black !important;
+  font-weight: 700;
+  font-family: none !important;
+}
+
+hr.loanDetail-divider::after {
+  content: "My Loan";
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  padding: 0 16px;
+  color: black !important;
+  font-size: 18px;
+  background: #fff;
+}
+hr.payment-divider {
+  margin-bottom: 10px;
+  overflow: visible;
+  border: none;
+  border-top: 1px solid gray;
+  text-align: center;
+  color: black !important;
+  font-weight: 700;
+  font-family: none !important;
+}
+
+hr.payment-divider::after {
+  content: "Payment Details";
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  padding: 0 16px;
+  color: black !important;
+  font-size: 18px;
+  background: #fff;
+}
+
+.dash-card {
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.8);
+  background-color: white;
+  padding: 0px;
+  margin: 20px;
+}
+.dash-card:hover {
+  box-shadow: 0px 0px 10px -1px rgba(61, 13, 255, 0.8);
+}
+.dash-payment-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.8);
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dash-payment-card:hover {
+  box-shadow: 0px 0px 10px -1px rgba(61, 13, 255, 0.8);
+}
+
+.custom-switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 15px;
+  cursor: pointer;
+  /* box-shadow: 0px 0px 10px -1px rgba(61, 13, 255, 0.8); */
+  box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.8);
+}
+
+.custom-switch .label {
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.custom-switch.on {
+  background-color: #4cae4c;
+}
+
+.custom-switch.on .label {
+  left: 65%;
+  color: white;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+.custom-switch.off .label {
+  left: 30%;
+  color: black;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.form-control {
+  border-radius: 0px;
+}
+
+.loan-count-card {
+  width: 100%;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.loan-count-card:hover {
+  box-shadow: 0px 0px 10px -1px rgba(61, 13, 255, 0.8);
+}
+
+#myDatePicker {
+  display: none;
+}

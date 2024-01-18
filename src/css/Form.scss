@@ -1,0 +1,116 @@
+.width {
+  width: -webkit-fill-available;
+}
+// .dropdown-menu {
+//   min-width: fit-content !important;
+//   min-height: fit-content !important;
+// }
+// .btn-primary {
+//   color: #0d6efd;
+//   background-color:#dee2e6 ;
+//   border-color:#084298 ;
+// }
+// .dropdown-menu.show {
+//   display: block;
+//   // position: initial !important;
+
+//   // inset: 0px auto auto 0px;
+//   transform: translate3d(0px, 40px, 0px);
+//   // overflow: scroll;
+//   //   height: 200px;
+//   //  width: -webkit-fill-available;
+// }
+
+.page-width {
+  margin-top: 150px;
+}
+.asset {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.asset-button {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Empoyement {
+  display: flex;
+  justify-content: space-between;
+}
+.employement {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-page {
+  display: flex;
+  justify-content: flex-end;
+}
+.home-content.open {
+  margin-left: 210px;
+  // padding: 1px 16px;
+  max-width: calc(100% - 210px);
+  padding: 0px 0px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .home-content.open {
+    max-width: calc(100% - 0px);
+    margin-left: 0;
+    margin-top: 80px;
+  }
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+@media (min-width: 768px) and (max-width: 797px) {
+  .page-one {
+    margin-top: 35px !important;
+  }
+}
+@media (min-width: 1007px) and (max-width: 1157px) {
+  .page-one {
+    margin-top: 35px !important;
+  }
+}
+.results-padding {
+  @media screen and (max-width: 450px) {
+    margin-top: 15px;
+  }
+}
+.card-img-home {
+  height: 380px;
+  @media (min-width: 768px) and (max-width: 1024px) {
+    height: 300px;
+  }
+}
+.homepage-mission {
+  padding: 0px 90px;
+  @media (max-width: 1024px) {
+    padding: 0px 30px;
+  }
+  @media (max-width: 768px) {
+    padding: 0px 50px;
+  }
+}
+.vission-card-home {
+  background-color: #1977cc;
+  color: aliceblue;
+}
+.vission-card-home div h3 a {
+  color: aliceblue !important;
+}
+.core-value-h4-color {
+  color: #0a95c2;
+}
+.btn-learn-more-homepage:hover {
+  color: aliceblue;
+  background-color: #179fde;
+}
+.adminalignRight {
+  @media (min-width: 320px) and (max-width: 768px) {
+    text-align: right;
+  }
+}

@@ -1,0 +1,111 @@
+.sidebarcontent.open {
+  // width: 210px;
+  background-color: #dbd3e973;
+  height: 100vh;
+  position: fixed;
+  // top: 80px;
+  z-index: 2;
+  left: 0;
+}
+
+.sidebarcontent.open .nav-list {
+  display: grid;
+  margin-top: 70px;
+  overflow: auto;
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+  padding: 10px 0px 10px 0px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .sidebarcontent.open .nav-list {
+    display: grid;
+    margin-top: 0px;
+    overflow: auto;
+    height: calc(100vh - 70px);
+    overflow-y: scroll;
+    padding: 10px 0px 10px 0px;
+  }
+}
+
+.sidebarcontent.open .nav-list::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  display: block;
+}
+
+.sidebarcontent.open .nav-list::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 178, 178);
+  border-radius: 5px;
+}
+
+.home-content.open {
+  margin-left: 202px;
+  // padding: 1px 16px;
+  max-width: calc(100% - 210px);
+  padding: 0px 14px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .home-content.open {
+    max-width: calc(100% - 0px);
+    margin-left: 0;
+    margin-top: 80px;
+  }
+}
+
+.sidebarcontent.open a {
+  display: block;
+  // color: rgb(244, 248, 250);
+  color: #3d4d6a;
+  font-size: 14px;
+  padding: 16px 10px 16px 8px !important;
+  margin: 0px 10px;
+  text-decoration: none;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.sidebarcontent.open a:hover {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 16px 10px 16px 8px !important;
+  margin: 0px 10px;
+  margin-bottom: 3px;
+  color: black !important;
+  text-decoration: none;
+  background-color: #acacac !important;
+  border-radius: 8px !important;
+}
+
+.sidebarcontent.open .main-nav-active-style {
+  color: #1d1464 !important;
+  text-decoration: none;
+  background-color: white !important;
+  border-radius: 8px !important;
+  border-bottom-style: solid;
+}
+
+.sidebarcontent.open .main-nav-active-style:hover {
+  color: #1d1464 !important;
+  text-decoration: none;
+  background-color: white !important;
+  border-radius: 8px !important;
+}
+
+.menu-icon-color {
+  background-color: #f8f9fa;
+  width: 100%;
+  z-index: 2;
+}
+.navbar-style {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  z-index: 3;
+  background-color: antiquewhite;
+  color: #f8f9fa;
+}
