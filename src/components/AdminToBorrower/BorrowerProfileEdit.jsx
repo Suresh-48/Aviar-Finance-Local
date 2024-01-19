@@ -15,7 +15,6 @@ function BorrowerProfileEdit() {
   const [loanNumberVisible, setLoanNumberVisible] = useState(false);
   const location = useLocation();
   const [data, setData] = useState(location?.state?.values);
-  
 
   const navigate = useNavigate();
 
@@ -88,10 +87,12 @@ function BorrowerProfileEdit() {
       <Formik
         initialValues={{
           firstName: data?.firstName ? data?.firstName : data?.borrowerId?.firstName,
-          middleName: data?.middleName ?  data?.middleName : data?.borrowerId?.middleName,
+          middleName: data?.middleName ? data?.middleName : data?.borrowerId?.middleName,
           lastName: data?.lastName ? data?.lastName : data?.borrowerId?.lastName,
-          socialSecurityNumber:  data?.socialSecurityNumber ?  data?.socialSecurityNumber : data?.borrowerId?.socialSecurityNumber,
-          dob: data?.dob ?  data?.dob : data?.borrowerId?.dob,
+          socialSecurityNumber: data?.socialSecurityNumber
+            ? data?.socialSecurityNumber
+            : data?.borrowerId?.socialSecurityNumber,
+          dob: data?.dob ? data?.dob : data?.borrowerId?.dob,
           residencyType: data?.residencyType ? data?.residencyType : data?.borrowerId?.residencyType,
           maritalStatus: data?.maritalStatus ? data?.maritalStatus : data?.borrowerId?.maritalStatus,
           email: data?.email ? data?.email : data?.borrowerId?.email,
@@ -102,7 +103,7 @@ function BorrowerProfileEdit() {
           streetName: data?.streetName ? data?.streetName : data?.borrowerId?.streetName,
           cityName: data?.cityName ? data?.cityName : data?.borrowerId?.cityName,
           state: data?.state ? data?.state : data?.borrowerId?.state,
-          zipCode: data?. zipCode ? data?.borrowerId?.zipCode : data?.borrowerId?.zipCode,
+          zipCode: data?.zipCode ? data?.zipCode : data?.borrowerId?.zipCode,
         }}
         validationSchema={validateSchema}
         onSubmit={(values) => updateBorrower(values)}
@@ -158,7 +159,7 @@ function BorrowerProfileEdit() {
 
                 <Row>
                   <Col xs={12} md={6} className="mb-4">
-                  <Form.Group>
+                    <Form.Group>
                       <Form.Label className="requiured mb-0">Social Security Number</Form.Label>
                       <InputGroup>
                         <Form.Control
@@ -182,7 +183,7 @@ function BorrowerProfileEdit() {
                   </Col>
 
                   <Col xs={12} md={6} className="mb-4">
-                  <Form.Group style={{ width: "100%", display: "flex", flexDirection: "column" }}>
+                    <Form.Group style={{ width: "100%", display: "flex", flexDirection: "column" }}>
                       <Form.Label className="required mb-0">Date of Birth</Form.Label>
                       <DatePicker
                         renderCustomHeader={({ date, changeYear, changeMonth }) => (
@@ -244,7 +245,7 @@ function BorrowerProfileEdit() {
 
                 <Row>
                   <Col xs={12} md={4} className="mb-4 ">
-                  <Form.Group>
+                    <Form.Group>
                       <Form.Label className="required mb-0">Email</Form.Label>
                       <Form.Control
                         style={{ borderRadius: 0 }}
